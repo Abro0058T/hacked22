@@ -1,0 +1,123 @@
+.lplogin{
+    background-color: transparent;
+    margin-right: 10px;
+    color: #f0a0bc;
+    border: none;
+    cursor: pointer;
+
+}
+.nav{
+    box-shadow: 0px 0px 15px 4px rgba(255, 192, 203, 0.686);
+}
+.lplogin:hover{
+    background-color: transparent;
+    color: #f0a0bc;
+}
+.lpmain-body{
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin-top: -00px; */
+    width: 100vw;
+    box-sizing: border-box;
+    /* flex:1 1 200px; */
+    height: 100vh;
+    flex-direction: row;
+}
+.lpmain-right{
+    display: flex;
+    box-sizing: border-box;
+    flex:1 1 200px;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30rem;
+    background-image: url('../../assist/background.svg');
+    background-repeat: no-repeat;
+    margin-left: 100px;
+
+    /* margin-right: 400px; */
+}
+.lpmain-right h1{
+    margin-bottom: 20px;
+    
+}
+.lpmain-right p{
+    /* margin-bottom: 20px; */
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.lpmain-right h4{
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+.lpbutts button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: #df9895ee;
+}
+.lpmain-left{
+    flex:1 1 200px;
+}
+.lpmain-left img{
+    flex:1 1 200px;
+    transform: translateX(00px);
+    /* max-width: 300px; */
+    box-sizing: border-box;
+    /* margin-right: -500px; */
+    width: 700px;
+    /* height: 100%; */
+
+    /* height: ; */
+
+    /* background-image: url('../../assist/landingpage.jpg'); */
+}
+.create-commnity{
+    /* visibility: hidden; */
+    background-color: rgba(178, 178, 178, 0.464);
+      
+    
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    /* left: 400px; */
+
+}
+.cs-close-btn{
+    background-color: white;
+    border: none;
+    position: absolute;
+    top :6rem;
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    transform: translateX(17rem);
+}
+.uc-close-btn{
+    background-color: white;
+    border: none;
+    position: absolute;
+    top :15.8rem;
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    transform: translateX(8rem);
+}
+.lpusers{
+    background-color: white !important;
+    color: #f0a0bc !important;
+    border:  1px solid #f0a0bc !important;
+
+}
+.lpcommunity{
+    box-shadow: 0px 0px 12px 2px #f0a0bc8f;
+}

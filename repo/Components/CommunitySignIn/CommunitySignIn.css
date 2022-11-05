@@ -1,0 +1,60 @@
+.cs-form{
+    padding: 2rem;
+    background-color: white;
+    width: 25rem;
+    display:block;
+    border-radius: 15px;
+    /* position: absolute; */
+    height: 25rem;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 12px 4px #c98986;
+    transform: translateY(6rem);
+    /* position: absolute; */
+    /* margin: auto; */
+}
+.cs-form h2{
+text-align: center;
+}
+.cs-form Button{
+    margin-top: 1rem;
+    background-color: white !important;
+    border: 1px solid #c98986 !important;
+    color: #c98986 !important;
+}
+.background{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.link{
+    color: #c98986 !important;
+    text-decoration: none !important;
+}
+.com-left{
+    width: 40vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+.com-right{
+    width: 38vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+.right-img{
+    width: 39vw;
+    height: 80vh;
+    /* display: block; */
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+    background-image: url("../../assist/GroupChat.svg");
+}
+.left-img{
+    width: 39vw;
+    height: 77vh;
+    /* display: block; */
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    background-image: url("../../assist/groupchat2.svg");
+}
